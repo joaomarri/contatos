@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20C924A155E93A8000E0B33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20C9249155E93A8000E0B33 /* UIKit.framework */; };
+		B20C924C155E93A8000E0B33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20C924B155E93A8000E0B33 /* Foundation.framework */; };
+		B20C924E155E93A8000E0B33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20C924D155E93A8000E0B33 /* CoreGraphics.framework */; };
+		B20C9254155E93A9000E0B33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B20C9252155E93A9000E0B33 /* InfoPlist.strings */; };
+		B20C9256155E93A9000E0B33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B20C9255155E93A9000E0B33 /* main.m */; };
+		B20C925A155E93A9000E0B33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B20C9259155E93A9000E0B33 /* AppDelegate.m */; };
+		B20C926A155E9426000E0B33 /* Contato.m in Sources */ = {isa = PBXBuildFile; fileRef = B20C9265155E9426000E0B33 /* Contato.m */; };
+		B20C926B155E9426000E0B33 /* contatos.plist in Resources */ = {isa = PBXBuildFile; fileRef = B20C9266155E9426000E0B33 /* contatos.plist */; };
+		B20C926C155E9426000E0B33 /* ListagemContatosController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20C9268155E9426000E0B33 /* ListagemContatosController.m */; };
+		B20C926D155E9426000E0B33 /* ListagemContatosController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20C9269155E9426000E0B33 /* ListagemContatosController.xib */; };
+		B20C9287155E9BBD000E0B33 /* FormularioContatoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20C9285155E9BBD000E0B33 /* FormularioContatoController.m */; };
+		B20C9288155E9BBD000E0B33 /* FormularioContatoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20C9286155E9BBD000E0B33 /* FormularioContatoController.xib */; };
+		B20C928C155EDEE0000E0B33 /* EditarContatosController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20C928B155EDEDF000E0B33 /* EditarContatosController.m */; };
+		B28AC2521567E140004D13F3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28AC2511567E140004D13F3 /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B20C9245155E93A8000E0B33 /* Contatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20C9249155E93A8000E0B33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B20C924B155E93A8000E0B33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B20C924D155E93A8000E0B33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B20C9251155E93A8000E0B33 /* Contatos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Contatos-Info.plist"; sourceTree = "<group>"; };
+		B20C9253155E93A9000E0B33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B20C9255155E93A9000E0B33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B20C9257155E93A9000E0B33 /* Contatos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Contatos-Prefix.pch"; sourceTree = "<group>"; };
+		B20C9258155E93A9000E0B33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B20C9259155E93A9000E0B33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B20C9264155E9426000E0B33 /* Contato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contato.h; sourceTree = "<group>"; };
+		B20C9265155E9426000E0B33 /* Contato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contato.m; sourceTree = "<group>"; };
+		B20C9266155E9426000E0B33 /* contatos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = contatos.plist; sourceTree = "<group>"; };
+		B20C9267155E9426000E0B33 /* ListagemContatosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListagemContatosController.h; sourceTree = "<group>"; };
+		B20C9268155E9426000E0B33 /* ListagemContatosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListagemContatosController.m; sourceTree = "<group>"; };
+		B20C9269155E9426000E0B33 /* ListagemContatosController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListagemContatosController.xib; sourceTree = "<group>"; };
+		B20C9284155E9BBD000E0B33 /* FormularioContatoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormularioContatoController.h; sourceTree = "<group>"; };
+		B20C9285155E9BBD000E0B33 /* FormularioContatoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormularioContatoController.m; sourceTree = "<group>"; };
+		B20C9286155E9BBD000E0B33 /* FormularioContatoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FormularioContatoController.xib; sourceTree = "<group>"; };
+		B20C9289155EB594000E0B33 /* ContatoProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContatoProtocol.h; sourceTree = "<group>"; };
+		B20C928A155EDEDF000E0B33 /* EditarContatosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditarContatosController.h; sourceTree = "<group>"; };
+		B20C928B155EDEDF000E0B33 /* EditarContatosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditarContatosController.m; sourceTree = "<group>"; };
+		B28AC2511567E140004D13F3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B20C9242155E93A8000E0B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28AC2521567E140004D13F3 /* MessageUI.framework in Frameworks */,
+				B20C924A155E93A8000E0B33 /* UIKit.framework in Frameworks */,
+				B20C924C155E93A8000E0B33 /* Foundation.framework in Frameworks */,
+				B20C924E155E93A8000E0B33 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20C923A155E93A8000E0B33 = {
+			isa = PBXGroup;
+			children = (
+				B28AC2511567E140004D13F3 /* MessageUI.framework */,
+				B20C924F155E93A8000E0B33 /* Contatos */,
+				B20C9248155E93A8000E0B33 /* Frameworks */,
+				B20C9246155E93A8000E0B33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B20C9246155E93A8000E0B33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B20C9245155E93A8000E0B33 /* Contatos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B20C9248155E93A8000E0B33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B20C9249155E93A8000E0B33 /* UIKit.framework */,
+				B20C924B155E93A8000E0B33 /* Foundation.framework */,
+				B20C924D155E93A8000E0B33 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B20C924F155E93A8000E0B33 /* Contatos */ = {
+			isa = PBXGroup;
+			children = (
+				B20C9264155E9426000E0B33 /* Contato.h */,
+				B20C9265155E9426000E0B33 /* Contato.m */,
+				B20C9266155E9426000E0B33 /* contatos.plist */,
+				B20C9267155E9426000E0B33 /* ListagemContatosController.h */,
+				B20C9268155E9426000E0B33 /* ListagemContatosController.m */,
+				B20C9269155E9426000E0B33 /* ListagemContatosController.xib */,
+				B20C9258155E93A9000E0B33 /* AppDelegate.h */,
+				B20C9259155E93A9000E0B33 /* AppDelegate.m */,
+				B20C9250155E93A8000E0B33 /* Supporting Files */,
+				B20C9284155E9BBD000E0B33 /* FormularioContatoController.h */,
+				B20C9285155E9BBD000E0B33 /* FormularioContatoController.m */,
+				B20C9286155E9BBD000E0B33 /* FormularioContatoController.xib */,
+				B20C9289155EB594000E0B33 /* ContatoProtocol.h */,
+				B20C928A155EDEDF000E0B33 /* EditarContatosController.h */,
+				B20C928B155EDEDF000E0B33 /* EditarContatosController.m */,
+			);
+			path = Contatos;
+			sourceTree = "<group>";
+		};
+		B20C9250155E93A8000E0B33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B20C9251155E93A8000E0B33 /* Contatos-Info.plist */,
+				B20C9252155E93A9000E0B33 /* InfoPlist.strings */,
+				B20C9255155E93A9000E0B33 /* main.m */,
+				B20C9257155E93A9000E0B33 /* Contatos-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B20C9244155E93A8000E0B33 /* Contatos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20C925D155E93A9000E0B33 /* Build configuration list for PBXNativeTarget "Contatos" */;
+			buildPhases = (
+				B20C9241155E93A8000E0B33 /* Sources */,
+				B20C9242155E93A8000E0B33 /* Frameworks */,
+				B20C9243155E93A8000E0B33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Contatos;
+			productName = Contatos;
+			productReference = B20C9245155E93A8000E0B33 /* Contatos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B20C923C155E93A8000E0B33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B20C923F155E93A8000E0B33 /* Build configuration list for PBXProject "Contatos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B20C923A155E93A8000E0B33;
+			productRefGroup = B20C9246155E93A8000E0B33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B20C9244155E93A8000E0B33 /* Contatos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B20C9243155E93A8000E0B33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20C9254155E93A9000E0B33 /* InfoPlist.strings in Resources */,
+				B20C926B155E9426000E0B33 /* contatos.plist in Resources */,
+				B20C926D155E9426000E0B33 /* ListagemContatosController.xib in Resources */,
+				B20C9288155E9BBD000E0B33 /* FormularioContatoController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B20C9241155E93A8000E0B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20C9256155E93A9000E0B33 /* main.m in Sources */,
+				B20C925A155E93A9000E0B33 /* AppDelegate.m in Sources */,
+				B20C926A155E9426000E0B33 /* Contato.m in Sources */,
+				B20C926C155E9426000E0B33 /* ListagemContatosController.m in Sources */,
+				B20C9287155E9BBD000E0B33 /* FormularioContatoController.m in Sources */,
+				B20C928C155EDEE0000E0B33 /* EditarContatosController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B20C9252155E93A9000E0B33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B20C9253155E93A9000E0B33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B20C925B155E93A9000E0B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B20C925C155E93A9000E0B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B20C925E155E93A9000E0B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Contatos/Contatos-Prefix.pch";
+				INFOPLIST_FILE = "Contatos/Contatos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B20C925F155E93A9000E0B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Contatos/Contatos-Prefix.pch";
+				INFOPLIST_FILE = "Contatos/Contatos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B20C923F155E93A8000E0B33 /* Build configuration list for PBXProject "Contatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20C925B155E93A9000E0B33 /* Debug */,
+				B20C925C155E93A9000E0B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20C925D155E93A9000E0B33 /* Build configuration list for PBXNativeTarget "Contatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20C925E155E93A9000E0B33 /* Debug */,
+				B20C925F155E93A9000E0B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B20C923C155E93A8000E0B33 /* Project object */;
+}
